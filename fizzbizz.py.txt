@@ -1,0 +1,15 @@
+""" Print the numbers from 1 to N ,using num(n) function
+if the number is multiples of three, print “Fizz” instead of the number
+and for the multiples of five print “Buzz” For numbers which are multiples of both three and five print “FizzBuzz” """
+
+def ninput(n):
+    for i in range(n):
+        nlis=[]
+        num=int(input("enter the number"))
+        if(num%3==0 and num%5==0):
+            print("FIZZ BIZZ")
+        elif(num%3==0):
+            print("FIZZ")
+        elif(num%5==0):
+            print("BIZZ")
+        
